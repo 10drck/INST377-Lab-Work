@@ -1,5 +1,62 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Kendrick's Labs for INST377</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <h1>Kendrick Montecino's Labs For INST377</h1>
+    </header>
+    <div class="container">
+
+      <div class="left_section box">
+        <h2>My favorite albums:</h2>
+        <div class="box">
+          <ol>
+            <li> Mr. Morale & The Big Steppers - Kendrick Lamar </li>
+            <li> DAMN. - Kendrick Lamar </li>
+            <li> Off the Wall - Michael Jackson</li>
+            <li> Forever, Michael - Michael Jackson</li>
+            <li>LOVE ALL SERVE ALL - Fujii Kaze </li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="right_section box">
+        <h2>Image Carousel</h2>
+        <div class="carousel">
+          <button class="prev">prev</button>
+          <div class="slides">
+            <div class="carousel_item visible">
+              <img src="images/kendrickalbum.jpg" alt="Mr. Morale & The Big Steppers Album Cover" />
+            </div>
+            <div class="carousel_item hidden">
+              <img src="images/kendrickalbum2.jpg" alt="DAMN. Album Cover" />
+            </div>
+            <div class="carousel_item hidden">
+              <img src="images/mjalbum.jpg" alt="Off The Wall Album Cover" />
+            </div>
+            <div class="carousel_item hidden">
+              <img src="images/fujiialbum.jpg" alt="LOVE ALL SERVE ALL Album Cover" />
+            </div>
+          </div>
+          <button class="next">next</button>
+        </div>
+        <div class="box">These are all of my favorite albums covers!</div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      Follow my Github, <a href="https://github.com/10drck">10drck</a> to follow along with some of my projects!
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
